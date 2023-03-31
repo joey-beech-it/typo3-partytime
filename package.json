@@ -1,0 +1,14 @@
+{
+	"name": "partytown",
+	"version": "1.0.0",
+	"description": "beechsitetemplate",
+	"main": "index.js",
+	"author": "",
+	"scripts": {
+		"build": "npm run partytown && build",
+		"partytown": "partytown copylib Resources/Public/Scripts/~partytown"
+	},
+	"dependencies": {
+		"@builder.io/partytown": "^0.7.6"
+	}
+}

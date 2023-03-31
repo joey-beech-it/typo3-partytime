@@ -1,0 +1,19 @@
+plugin.tx_partytown {
+  settings {
+  }
+}
+
+page.headerData.11 = COA
+page.headerData.11 {
+  10 = TEXT
+  10.wrap (
+  <script>
+  partytown = {
+    forward: ['dataLayer.push'],
+    debug: true,
+    lib : '/typo3conf/ext/partytown/Resources/Public/Scripts/~partytown/',
+  };
+  </script>
+  <script src="/typo3conf/ext/partytown/Resources/Public/Scripts/~partytown/debug/partytown.js"></script>
+  )
+}

@@ -1,0 +1,16 @@
+{
+    "name": "beechit/partytown",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "license": "GPL-3.0+",
+    "autoload": {
+        "psr-4": {
+            "BeechIt\\Partytown\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "partytown"
+        }
+    }
+}
